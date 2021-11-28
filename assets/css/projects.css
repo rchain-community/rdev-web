@@ -1,0 +1,22 @@
+.mx-auto {
+    font-size: 1rem;
+}
+
+.more-info { 
+    text-align: justify;
+    /* text-justify: inter-word; */
+}
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  
