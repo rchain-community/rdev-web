@@ -11,6 +11,12 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
+
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -52,7 +58,7 @@
     
     <main class="px-1" data-aos="fade-up"
     data-aos-duration="2000">
-        <h1 style="color: #A93226;">Learn, Contribute, Earn and Fund Great Projects</h1>
+        <h1 class="hero-title" style="color: #A93226;">Learn, Contribute, Earn and Fund Great Projects</h1>
         <p class="lead hero-small-text">RChain Developers Cooperation aims to become a leaderless cooperation among RChain Cooperative members, incubating teams, learning peer to peer, crash courses, bootcamp, meetups, running our own rhobot shard and mainnet validators, crowdfunding, rewarding ourselves, building dapps, helping to make RChain scale.</p>
         <p class="lead">
         <a href="#features" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
@@ -69,9 +75,9 @@
 </div>
 </section>
 
-<section>
+<section id="features">
 <div class="container px-4 py-5" id="hanging-icons">
-  <div class="row g-4 py-5 row-cols-1 row-cols-lg-4" id="features" data-aos="fade-up"
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-4" data-aos="fade-up"
   data-aos-duration="2000">
     <div class="col d-flex align-items-start"> 
       <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
@@ -81,7 +87,7 @@
       </div>
       <div>
         <h2>Learn</h2>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <p>Learn Rholang and RChain development through our workstudies and bootcamps.</p>
         
       </div>
     </div>
@@ -93,7 +99,7 @@
       </div>
       <div>
         <h2>Contribute</h2>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <p>Apply the experience and skills learnt during our workstudy sessions to existing projects. </p>
         
       </div>
     </div>
@@ -104,8 +110,8 @@
         </svg>
       </div>
       <div>
-        <h2>Earn</h2>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <h2>Fund</h2>
+        <p>You can also support open source projects building by being a part of our crowdfund.</p>
         
       </div>
     </div>
@@ -117,8 +123,8 @@
         </svg>
       </div>
       <div>
-        <h2>Fund</h2>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <h2>Earn</h2>
+        <p>Through our leaderless approach, we collective reward ourselves in a fair manner.</p>
         
       </div>
     </div>
@@ -189,6 +195,22 @@
     </div>
   </div>
 
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2" data-aos="fade-left"
+    data-aos-duration="2000">
+      <h2 class="featurette-heading">Fund the Open Web <span class="text-muted">and Influence its Future</span></h2>
+      <p class="lead">Support innovative and scalable open source projects that will not only form the future of RChain but that will also become leaders of the evolving web3 space and in turn disrupt the internet we know today.</p>
+    </div>
+    <div class="col-md-5 order-md-1" data-aos="fade-right"
+    data-aos-duration="2000">
+      <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" fill="currentColor" class="bi bi-hourglass" viewBox="0 0 16 16">
+        <path d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5zm2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2h-7z"/>
+      </svg>
+    </div>
+  </div>
+
 </main>
 <br><br><br><br>
 <section class="bg-light" id="projects" data-aos="fade-up"
@@ -202,7 +224,7 @@ data-aos-duration="2000">
         <div>
           <h2><b style="color: #A93226;">RChain</b> Governance</h2>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
+          <a class="btn btn-primary btn-margin">View Project</a>
         </div>
       </div>
       <div class="col d-flex align-items-start shadow-sm">
@@ -211,7 +233,7 @@ data-aos-duration="2000">
         <div>
           <h2><b style="color: #A93226;">RChain</b> Wallet</h2>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
+          <a class="btn btn-primary btn-margin">View Project</a>
         </div>
       </div>
       <div class="col d-flex align-items-start shadow-sm">
@@ -220,7 +242,7 @@ data-aos-duration="2000">
         <div>
           <h2><b style="color: #A93226;">Rholang</b> bootcamp</h2>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
+          <a class="btn btn-primary btn-margin">View Project</a>
         </div>
       </div>
       <div class="col d-flex align-items-start shadow-sm">
@@ -229,7 +251,7 @@ data-aos-duration="2000">
         <div>
           <h2>RChat</h2>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
+          <a class="btn btn-primary btn-margin">View Project</a>
         </div>
       </div>
     </div>

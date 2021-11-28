@@ -1,18 +1,38 @@
 /*
  * Globals
  */
-
+.hero-title {
+  font-family: 'Kanit', sans-serif;
+  font-size: 3.5rem;
+}
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #121212;
+  border: none;
   text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #A93226;
+  border: none;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.btn-margin {
+  margin-bottom: 20px;
 }
 
 .cover-container {
   max-width: 42em;
+}
+
+.footer {
+  text-align: center;
 }
 
 
@@ -116,7 +136,7 @@
 #back-to-top {
   position: fixed;
   bottom: -4px;
-  right: 10px;
+  right: 30px;
 }
 
 
