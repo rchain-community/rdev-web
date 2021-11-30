@@ -27,8 +27,17 @@
   margin-bottom: 20px;
 }
 
+.btn-donate {
+  font-size: 1.5rem;
+  width: 200px;
+}
+
 .cover-container {
   max-width: 42em;
+}
+
+.project-text {
+  font-size: 0.8rem;
 }
 
 .footer {
@@ -64,6 +73,8 @@
 
 .hero-content {
   height: 100vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(86deg, rgba(0,0,0,1) 75%, rgba(169,50,38,1) 100%);
 }
 
 .hero-small-text {
