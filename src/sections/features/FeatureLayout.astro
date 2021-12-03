@@ -1,0 +1,47 @@
+---
+import { Markdown} from 'astro/components';
+import CopyText from '../../components/CopyText.svelte';
+
+const {separator = false, image = "", flip = false, buttonLink, buttonText} = Astro.props;
+---
+
+<div class="row featurette">
+    { image  ? 
+        <div client:media="(max-width: 700px)" class={"col-md-5  order-md-1"} style="display: flex;" data-aos={ flip ? "fade-right" : "fade-left"} data-aos-duration="2000">
+            <img src={image} style="width: 70%; margin: 4em;"/>
+            
+        </div>
+        :
+        null
+    }
+
+    <div class={!flip ? "lead col-md-7" : "lead col-md-7 order-md-2"} id="about" data-aos={ !flip ? "fade-right" : "fade-left"}
+    data-aos-duration="2000" style="min-height: 30rem; padding-top: 7rem;">
+
+        <Markdown >
+            <slot />
+        </Markdown>
+
+        {   buttonLink ? 
+            <a class="btn btn-primary btn-donate" href={buttonLink}>{buttonText}</a>
+            :
+            null
+        }
+    </div>
+
+    { false ? null : null
+        /*image && !flip ? 
+        <div class={"col-md-5 order-md-1"} style="display: flex;" data-aos="fade-left" data-aos-duration="2000">
+            <img src={image} style="width: 70%; margin: 4em;"/>
+        </div>
+        :
+        null
+    */
+     }
+
+    { separator ?
+        <hr class="featurette-divider">
+        :
+        null
+    }
+</div>

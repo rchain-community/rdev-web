@@ -1,0 +1,40 @@
+---
+import CopyText from '../../components/CopyText.svelte';
+
+const {project} = Astro.props;
+const onClick = () => {
+  console.info("Click");
+};
+
+---
+
+<div class="col d-flex align-items-start shadow-sm">
+    <div class="Project">
+        <slot name="title" />
+        <slot name="description" />
+        { project.donationRevAddr ?
+          <p class="DonateLabel">Donate REV</p>
+          <CopyText text={project.donationRevAddr} client:visible/>
+          :
+          null
+        }
+
+
+        { project.url ?
+          <a class="btn btn-primary btn-margin" href={project.url} target="_blank" rel="noreferrer">Visit Project</a>
+          :
+          <a class="btn disabled btn-primary btn-margin">Coming soon</a>
+        }
+    </div>
+</div>
+
+<style>
+  .Project {
+    width: 100%;
+  }
+
+  .DonateLabel {
+    margin-bottom: 0;
+    margin-left: 0.6em;
+  }
+</style>

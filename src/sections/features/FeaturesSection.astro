@@ -1,0 +1,12 @@
+---
+import {Markdown} from "astro/components";
+const {flip = false} = Astro.props;
+---
+
+<main class="container marketing">
+      
+      <Markdown >
+        <slot />
+      </Markdown>
+
+</main>

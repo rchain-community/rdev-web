@@ -1,0 +1,20 @@
+{
+  "name": "rdev-web",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "npx astro dev",
+    "start": "npx astro dev",
+    "build": "npx astro build",
+    "deploy": "npx gh-pages -d dist",
+    "preview": "npx astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-svelte": "^0.2.1",
+    "astro": "^0.21.2",
+    "gh-pages": "^3.2.3"
+  },
+  "dependencies": {
+    "copy-text-to-clipboard": "^3.0.1"
+  }
+}

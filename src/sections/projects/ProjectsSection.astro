@@ -1,0 +1,29 @@
+---
+import ProjectSectionLayout from './ProjectSectionLayout.astro';
+import ProjectLayout from './ProjectLayout.astro';
+
+import { Markdown } from 'astro/components';
+
+import projects from "../../assets/projects.json";
+
+
+---
+
+<ProjectSectionLayout title={projects.title}>
+      {
+        projects.children.map(
+            (project : any) => {
+              return (
+                <ProjectLayout project={project} client:visible>
+                  <h2 slot="title"><b style="color: #A93226;">{project.title.split(" ")[0]} </b>{project.title.substr(project.title.indexOf(" ") + 1)}</h2>
+                  <Markdown slot="description" class="project-text">
+                      {project.description}
+                  </Markdown>
+                </ProjectLayout>
+
+              )
+            }
+        )
+      }
+
+</ProjectSectionLayout>

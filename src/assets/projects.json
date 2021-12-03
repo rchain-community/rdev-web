@@ -1,0 +1,24 @@
+{
+  "title": "Projects",
+  "children": [
+    {
+      "name": "rgov",
+      "title": "RChain Governance",
+      "description": "Goal: Radical decentralization with trust from the top down and bottom up to make good decisions. [See document](https://docs.google.com/document/d/14JJPWtrFxkxzHa1NAmwzhTmeQO1vJtKDOJgBB_MPyfY/edit#).",
+      "donationRevAddr": "11112iVtJJmo7x6t4DRdkfUfoy7wT8zkSsvYQMsMbCjaBmRUh4vNFh",
+      "url": "https://rchain-community.github.io/rgov/"
+    },
+    {
+      "name": "rchainwallet",
+      "title": "RChain Wallet",
+      "description": "Community funded RChain wallet development. Locally stored web interface for interaction with RChain platform.",
+      "donationRevAddr": "1111prE6yrVtv3fTDf7nYhcArxwYaxYBMuucTzrWWWYtix7ohUgTu",
+      "url": "https://www.rchainwallet.com"
+    },
+    {
+      "name": "bootcamp",
+      "title": "Rholang Bootcamp",
+      "description": "\"Rholang is simple but not easy.\" Crash courses and comprehensive program for developers of RChain dapps."
+    }
+  ]
+}

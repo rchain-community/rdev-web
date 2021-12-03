@@ -1,0 +1,33 @@
+---
+import {Markdown} from 'astro/components';
+---
+
+<footer class="container footer">
+  <p class="fab float-end footer-text" id="back-to-top" data-aos="fade-up"
+  data-aos-duration="2000"><a href="#home" style="color:#A93226;"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+    <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+  </svg></a></p>
+  <h2 class="lead" style="padding-bottom: 0.2em;">
+    <Markdown >
+      <slot />
+    </Markdown>
+  </h2>
+</footer>
+
+<style>
+
+.fab a {
+    border: none;
+    padding-left: initial;
+    padding-right: initial;
+    font-size: initial;
+    border-radius: none;
+    color: initial;
+}
+
+.fab a:hover {
+  color: inherit;
+  background-color: initial;
+}
+
+</style>
