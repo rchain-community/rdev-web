@@ -117,6 +117,5 @@ setup: |
 <ProjectsSection />
 
 <FooterLayout>
-    # This is a test to try github actions
     © 2021 RChain Developers Cooperation · [Join our Discord](https://discord.com/channels/375365542359465989/762748307180224512) · [Read the guiding document](https://docs.google.com/document/d/14JJPWtrFxkxzHa1NAmwzhTmeQO1vJtKDOJgBB_MPyfY/edit#) 
 </FooterLayout>
