@@ -1,3 +1,5 @@
+import path from 'path';
+
 export default {
   //projectRoot: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // pages: './src/pages', // Path to Astro components, pages, and data
@@ -14,4 +16,11 @@ export default {
   renderers: [
     "@astrojs/renderer-svelte"
   ],
+  vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve('/src'),
+      },
+    },
+  }
 };

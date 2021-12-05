@@ -1,21 +1,21 @@
 ---
 title: 'RChain Developer Cooperation'
 description: ''
-layout: ../layouts/MainLayout.astro
+layout: '@/layouts/MainLayout.astro'
 setup: |
   import {Markdown} from 'astro/components';
-  import FooterLayout from '../layouts/FooterLayout.astro';
+  import FooterLayout from '@/layouts/FooterLayout.astro';
 
-  import BannerSection from '../sections/banner/BannerSection.astro';
-  import Banner from '../sections/banner/Banner.astro';
+  import BannerSection from '@/sections/banner/BannerSection.astro';
+  import Banner from '@/sections/banner/Banner.astro';
 
-  import BulletpointsSection from '../sections/bulletpoints/BulletpointsSection.astro';
-  import MissionSection from '../sections/mission/MissionSection.astro';
-  import FeaturesSection from '../sections/features/FeaturesSection.astro';
-  import ProjectsSection from '../sections/projects/ProjectsSection.astro';
+  import BulletpointsSection from '@/sections/bulletpoints/BulletpointsSection.astro';
+  import MissionSection from '@/sections/mission/MissionSection.astro';
+  import FeaturesSection from '@/sections/features/FeaturesSection.astro';
+  import ProjectsSection from '@/sections/projects/ProjectsSection.astro';
 
-  import BulletpointLayout from '../sections/bulletpoints/BulletpointLayout.astro';
-  import FeatureLayout from '../sections/features/FeatureLayout.astro';
+  import BulletpointLayout from '@/sections/bulletpoints/BulletpointLayout.astro';
+  import FeatureLayout from '@/sections/features/FeatureLayout.astro';
 ---
 
 <BannerSection>
