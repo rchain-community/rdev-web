@@ -1,5 +1,5 @@
 <script>
-  import CopyIcon from '@/assets/copy.svg';
+  import CopyIcon from '../assets/copy.svg';
   import copy from 'copy-text-to-clipboard';
 
   export let text = "";
