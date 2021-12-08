@@ -107,6 +107,7 @@ setup: |
         - Together we can solve common problems and create libraries. We can create teams from members and develop apps.
         - We can run our own rdev rchain network ultimately to become a mainnet shard for our own work with our own RDEV token that might achieve market value if governed well.
         - We can follow collective [intelligence best practices](https://docs.google.com/presentation/d/1qFK10rFcCiBO72aeSFIfII0e1TeIXDKgZqwVlP-wREk/edit#slide=id.p) and create things much greater than we can do alone.
+        - We can [govern ourselves](https://docs.google.com/document/d/14JJPWtrFxkxzHa1NAmwzhTmeQO1vJtKDOJgBB_MPyfY/edit) autonomously employing top down trust metrics and bottom up liquid democracy within our teams and stakeholder groups forming a sociocratic polyarchy.
       </Markdown>
   </FeatureLayout>
 </FeaturesSection>
