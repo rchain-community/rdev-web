@@ -133,9 +133,11 @@ setup: |
 <style>
   .DonationInfo {
     padding: 1em;
-    border-radius: 1em;
+    border-radius: 0.6em;
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    background: #e9eff5;
+    border: 2px solid #bfc9df;
   }
 </style>
