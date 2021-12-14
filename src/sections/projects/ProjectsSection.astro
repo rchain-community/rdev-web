@@ -25,5 +25,7 @@ import projects from "@/assets/projects.json";
             }
         )
       }
-      <slot />
+      <div slot="after" style="display: flex;">
+        <slot />
+      </div>
 </ProjectSectionLayout>

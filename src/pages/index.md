@@ -117,13 +117,25 @@ setup: |
 <br/><br/><br/><br/><br/>
 
 <ProjectsSection>
-  <br/><br/>
+  <div class="DonationInfo" id="hanging-icons">
+  <p style="margin-top: 0.6em;">
   Send contributions for other activities of the Rchain Developers Cooperative including running the RhoBot RChain network to 
-  <br/>
+  </p>
   <CopyText text={"1111bchR8ErGzjkq7TY35pJB7oGosXhHoGP4Wj1mu27tYSV6yeWQ7"} client:visible/>
+  </div>
 </ProjectsSection>
 
 
 <FooterLayout>
     © 2021 RChain Developers Cooperation · [Join our Discord](https://discord.com/channels/375365542359465989/762748307180224512) · [Read the guiding document](https://docs.google.com/document/d/14JJPWtrFxkxzHa1NAmwzhTmeQO1vJtKDOJgBB_MPyfY/edit#) 
 </FooterLayout>
+
+<style>
+  .DonationInfo {
+    padding: 1em;
+    border-radius: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+</style>
