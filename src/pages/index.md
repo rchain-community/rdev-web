@@ -116,10 +116,11 @@ setup: |
 
 <br/><br/><br/><br/><br/>
 
-<ProjectsSection />
+<ProjectsSection>
+  Send contributions for other activities of the Rchain Developers Cooperative including running the RhoBot RChain network to 
+  <CopyText text={"1111bchR8ErGzjkq7TY35pJB7oGosXhHoGP4Wj1mu27tYSV6yeWQ7"} client:visible/>
+</ProjectsSection>
 
-Send contributions for other activities of the Rchain Developers Cooperative including running the RhoBot RChain network to 
-<CopyText text={"1111bchR8ErGzjkq7TY35pJB7oGosXhHoGP4Wj1mu27tYSV6yeWQ7"} client:visible/>
 
 <FooterLayout>
     © 2021 RChain Developers Cooperation · [Join our Discord](https://discord.com/channels/375365542359465989/762748307180224512) · [Read the guiding document](https://docs.google.com/document/d/14JJPWtrFxkxzHa1NAmwzhTmeQO1vJtKDOJgBB_MPyfY/edit#) 
