@@ -117,7 +117,9 @@ setup: |
 <br/><br/><br/><br/><br/>
 
 <ProjectsSection>
+  <br/><br/>
   Send contributions for other activities of the Rchain Developers Cooperative including running the RhoBot RChain network to 
+  <br/>
   <CopyText text={"1111bchR8ErGzjkq7TY35pJB7oGosXhHoGP4Wj1mu27tYSV6yeWQ7"} client:visible/>
 </ProjectsSection>
 
