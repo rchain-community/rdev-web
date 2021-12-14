@@ -117,11 +117,15 @@ setup: |
 <br/><br/><br/><br/><br/>
 
 <ProjectsSection>
-  <div class="DonationInfo" id="hanging-icons">
-  <p style="margin-top: 0.6em;">
-  Send contributions for other activities of the Rchain Developers Cooperative including running the RhoBot RChain network to 
-  </p>
-  <CopyText text={"1111bchR8ErGzjkq7TY35pJB7oGosXhHoGP4Wj1mu27tYSV6yeWQ7"} client:visible/>
+  <div class="DonationInfoContainer">
+    <div class="DonationInfo" id="hanging-icons">
+      <p style="margin-top: 0.6em;">
+        Send contributions for other activities of the Rchain Developers Cooperative including running the RhoBot RChain network to: 
+      </p>
+      <div class="DonationAddrCopy">
+        <CopyText text={"1111bchR8ErGzjkq7TY35pJB7oGosXhHoGP4Wj1mu27tYSV6yeWQ7"} client:visible/>
+      </div>
+    </div>
   </div>
 </ProjectsSection>
 
@@ -131,13 +135,23 @@ setup: |
 </FooterLayout>
 
 <style>
+  .DonationInfoContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .DonationInfo {
     padding: 1em;
     border-radius: 0.6em;
-    margin-right: auto;
-    margin-left: auto;
     display: flex;
     background: #e9eff5;
     border: 2px solid #bfc9df;
+    margin: 2em;
+  }
+
+  .DonationAddrCopy {
+    min-width: 14em;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 </style>
