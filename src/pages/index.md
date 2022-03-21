@@ -1,5 +1,5 @@
 ---
-title: 'RChain Developer Cooperation'
+title: 'RChain Development Cooperation'
 description: ''
 layout: '@/layouts/MainLayout.astro'
 setup: |
@@ -23,7 +23,7 @@ setup: |
   <Banner>
     <span style="color: #A93226;">**Learn, Contribute, Earn and Fund Great Projects**</span>
     ===============
-    <p class="lead hero-small-text">RChain Developers Cooperation aims to become a leaderless cooperation among RChain Cooperative members, incubating teams, learning peer to peer, crash courses, bootcamp, meetups, running our own rhobot shard and mainnet validators, crowdfunding, rewarding ourselves, building dapps, helping to make RChain scale.</p>
+    <p class="lead hero-small-text">RChain Development Cooperation aims to become a leaderless cooperation among RChain Cooperative members, incubating teams, learning peer to peer, crash courses, bootcamp, meetups, running our own rhobot shard and mainnet validators, crowdfunding, rewarding ourselves, building dapps, helping to make RChain scale.</p>
     <p class="lead">
       <a href="#features" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
     </p>
